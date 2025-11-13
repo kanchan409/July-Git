@@ -12,7 +12,6 @@ public class HashMapDemo
         map.put(30, "Virat");
         map.put(10, "Karpe");
 
-        //sort on the basis of keys
         System.out.println("Before sorting:- "+map);
         TreeMap<Integer, String> treeMap=new TreeMap<>(map);
         System.out.println("After Sorting:- "+treeMap);
